@@ -1,0 +1,32 @@
+.high-contrast {
+    background-color: #000;
+    color: #fff;
+}
+
+#accessibility-menu {
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#accessibility-menu button {
+    display: block;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+body.larger {
+    font-size: 1.25em;
+}
+
+body.smaller {
+    font-size: 0.75em;
+}
